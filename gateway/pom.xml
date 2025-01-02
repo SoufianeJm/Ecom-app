@@ -44,23 +44,15 @@
             <version>4.2.0</version>
             <type>pom</type>
         </dependency>
-
-
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-gateway -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-gateway</artifactId>
-            <version>4.2.0</version>
-            <type>pom</type>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
-
-        
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway-mvc</artifactId>
@@ -69,7 +61,6 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -91,7 +82,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
     <build>
         <plugins>
             <plugin>
@@ -100,5 +90,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
